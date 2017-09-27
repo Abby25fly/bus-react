@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 150px;
+}
+
+.App-header {
+  background-image: url("./blueback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.secTabla{
+background-image: url("./back.jpg");
+box-sizing: border-box;
+padding: 20px 15px;
+
+}
+
+input{
+  width: 30%;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 2px 3px;
+}
+
+.btns{
+margin: 20px 20px;
+border:#E05708 3px solid;
+width: 18%;
+padding: 5px 0px;
+border-radius: 10px;
+color:#080808;
+font-size: 18px;
+font-weight: bold;
+background-color: transparent;
+}
+.btns:hover{
+  background:-webkit-linear-gradient(left, #F05B05,#03018A);
+  border: transparent;
+  color: white;
+}
+/*
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*/
